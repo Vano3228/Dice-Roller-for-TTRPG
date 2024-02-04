@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+  background: powderblue;
+  font-family: "Candara";
+}
+
+label{
+  display: block;
+}
+label p{
+  font-size: 1.2em
+}
+
+.main{
+  background: aliceblue;
+  padding: 10px;
+}
+
+.mainForm{
+  width: 25%;
+  margin: 20px auto;
+  border: 2px solid dimgrey;
+  border-radius: 10px;
+  padding: 10px;
+  background: lightgreen;
+}
+
+.header h1{
+  font-size: 60px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 0 0.2em;
+}
+.header h1:hover{
+  text-decoration: underline;
+}
+.header{
+  border-bottom: 1px black solid;
+}
+
+.footer{
+  border-top: 1px black solid;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.welcome{
+  max-width: 500px;
+  margin: 20px auto;
+  border: 2px solid dimgrey;
+  border-radius: 10px;
+  padding: 10px;
+  background: lightcoral;
+}
+
+button, .navButt{
+  display: inline-block;
+  padding: 5px;
+  margin: 10px;
+  background-color: aliceblue;
+  font-size: 1em;
+  border: 1px black solid;
+  border-radius: 5px;
+}
+button:hover, .navButt:hover{
+  background-color: rgb(202, 238, 224);
+  cursor: pointer;
+}
+
+input{
+  font-size: 1em;
+  padding: 5px;
+  width: 75px;
+}
+
+
+
+.prevValues{
+  max-width: 25%;
+  margin: 20px auto;
+  border: 1px solid dimgrey;
+  border-radius: 10px;
+  padding: 10px;
+  background: lightgreen;
+}
+
+.prevValues h2{
+  border-bottom: 2px solid;
+  display: inline-block;
+  margin-bottom: 15px;
+
+}
+
+.prevValues h3{
+  text-align: justify;
+  padding: 5px 20%;
+}
+
+.previousValues{
+  background-color: lavender;
+  margin: 1em auto;
+  padding: 0 1.5em 1.5em 1.5em;
+  border: 2px grey solid;
+  min-width: 15%;
+  width: fit-content;
+  max-height: 18em;
+  overflow: auto;
+  border-radius: 5px;
+  position: relative;
+}
+
+.previousValues h2{
+  position: sticky;
+  top: 0;
+  background-color:lavender;
+  width: 100%;
+  border-bottom: 1px black solid;
+  display: inline-block;
+  padding: 5px;
+}
+.oneprev{
+  margin: 0.5em;
+}
+
+.previous h3{
+  display: inline;
+}
+
+.main{
+  background: aliceblue;
+  padding: 10px;
+}
+
+input, select{
+  font-size: 1em;
+  padding: 5px;
+  display: inline-block;
+}
+
+.fumble{
+  color:red;
+}
+
+.crit{
+  color:green;
+}
+p{
+  display: inline;
+}
+
+[name='skill']{
+  width: 35%;
+}
+
+.rollForm{
+  width: 25%;
+  margin: 20px auto;
+  border: 2px solid dimgrey;
+  border-radius: 10px;
+  padding: 10px;
+  background: lavender;
+}
+
+/*Вращение картинки*/
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+img{
+  animation: spin 5s linear 0s infinite;
+  width: 75px;
+  margin-top: 5px;
+}
